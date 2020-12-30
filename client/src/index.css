@@ -1,0 +1,17 @@
+td, th {
+  font-size: 0.8rem;
+}
+
+table#tasks th[data-name] {
+  cursor: pointer;
+}
+
+table#tasks th[data-name]:hover {
+  cursor: pointer;
+  background: #ddd;
+  box-shadow: 0 0 0 0.2rem rgba(52,58,64,.5);
+}
+
+table#tasks tbody tr {
+  /* cursor: pointer; */
+}
